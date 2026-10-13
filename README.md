@@ -67,21 +67,23 @@ same 250-problem exam, same oracle grading). Full per-problem reports in
 
 | Model | Overall | tool-ordering | permission-matrix | loop-detection | budget-knapsack | plan-makespan |
 |---|---|---|---|---|---|---|
-| 0.5B  | 4.4%  | 22% | 0%  | 0%  | 0% | 0% |
-| 1.5B  | 8.0%  | 34% | 6%  | 0%  | 0% | 0% |
-| 3B    | 18.0% | 56% | 32% | 2%  | 0% | 0% |
-| 7B    | 36.4% | 98% | 60% | 22% | 2% | 0% |
+| 0.5B  | 4.4%  | 22% | 0%  | 0%  | 0%  | 0% |
+| 1.5B  | 8.0%  | 34% | 6%  | 0%  | 0%  | 0% |
+| 3B    | 18.0% | 56% | 32% | 2%  | 0%  | 0% |
+| 7B    | 36.4% | 98% | 60% | 22% | 2%  | 0% |
+| 14B   | 39.2% | 98% | 68% | 12% | 10% | 8% |
 | random (chance) | 9.6% | 30% | 18% | — | 0% | — |
 
 Findings (all reproducible with the commands below):
 
 1. **Dependency understanding saturates at 7B**: tool-ordering climbs
-   22% → 34% → 56% → 98% with scale — near-perfect at 7B.
-2. **Numerical optimization does not open up ≤7B**: budget-knapsack and
-   plan-makespan stay at ≤2% across all four sizes, while chance-level
-   structure means the exam is not trivially gamed.
+   22% → 34% → 56% → 98% → 98% with scale — saturated from 7B onward.
+2. **Numerical optimization only opens up at 14B**: budget-knapsack and
+   plan-makespan stay at ≤2% through 7B, then jump to 10% / 8% at 14B —
+   the "capability opening" point for exact-DP-style planning sits
+   between 7B and 14B in the Qwen2.5 family.
 3. **Format compliance is 100% for 1.5B+** (with the JSON schema hint in
-   the system prompt): every error below 7B is a clean reasoning error,
+   the system prompt): every error is a clean reasoning error,
    not a formatting artifact.
 
 Reproduce:
