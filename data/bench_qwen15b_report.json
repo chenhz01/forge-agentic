@@ -1,0 +1,1541 @@
+{
+ "backend": "qwen2.5-1.5b-instruct-q4k_m-cpu",
+ "file": "../forge-agentic/data/agentic_w1_250.jsonl",
+ "total": 250,
+ "passed": 20,
+ "accuracy": 0.08,
+ "reason_breakdown": {
+  "value-mismatch": 230,
+  "pass": 20
+ },
+ "per_type": {
+  "budget-knapsack": {
+   "passed": 0,
+   "total": 50,
+   "acc": 0.0
+  },
+  "loop-detection": {
+   "passed": 0,
+   "total": 50,
+   "acc": 0.0
+  },
+  "permission-matrix": {
+   "passed": 3,
+   "total": 50,
+   "acc": 0.06
+  },
+  "plan-makespan": {
+   "passed": 0,
+   "total": 50,
+   "acc": 0.0
+  },
+  "tool-ordering": {
+   "passed": 17,
+   "total": 50,
+   "acc": 0.34
+  }
+ },
+ "rows": [
+  {
+   "id": "budget-knapsack-4ce16cdcae",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-d73ddc15c6",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-04230ab3ff",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-b5a4b87f39",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-d220cde4c1",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-8875b760a7",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-4dbc77877c",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-0cbc2ca5ac",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-9a86f9383e",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-37d8e506a2",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-c8e2bcc0a7",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-06d3ec35e0",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-cce45654dc",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-868559e12a",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-7f6ef00984",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-670c48d745",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-ae14f2745b",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-7f71ca4aab",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-30c2e09dcf",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-b3ca3c4aeb",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-b01115a4d5",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-56644cf9e0",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-256b82e015",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-429ab89b67",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-9ee007ac5e",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-156ed44453",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-4fd2809e78",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-036de34bfc",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-078e4d0000",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-bfe945bed4",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-e1ff027c02",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-df6f3b33cc",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-0d462fc22d",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-921c24fb1a",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-ab489a02df",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-9c3fe86ac2",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-0534ace1f2",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-c3eff68206",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-16182f7078",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-044b77bfe9",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-eb9942a5c7",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-faed2227a1",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-43a36045d4",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-c6728ece27",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-34746941e5",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-c97339a827",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-ff551169dc",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-ca4bdf7e34",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-bff47ae0b2",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "budget-knapsack-21b91f43f1",
+   "type": "budget-knapsack",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-2a310a9ce5",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-8b90894dc8",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-ded4a38225",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-438bd4be4d",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-5d9db0a487",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-b329f8ccea",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-84e1e89dee",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-e86eae8b70",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-26a09c1830",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-6b3077ed1d",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-107c1bfadc",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-82c36ec012",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-25498dad9f",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-48fad01448",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-7876491caa",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-908fd71f31",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-d6a0286f13",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-2f7b80ebc7",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-fae5354912",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-2a86379d60",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-28fc98bafc",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-37124da682",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-4bbb012119",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-c35eaac425",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-9082dd73a5",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-ab4f751ef9",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-ea906a587b",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-34586ae0fd",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-0086ba08f9",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-73bebe836d",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-a7eac0b18c",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-6b4d31e895",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-f0e8507df7",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-5d5d0d4614",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-97a6b94c81",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-be746b4230",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-a44434b67a",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-5c031c3020",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-be80c16466",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-3274e9a3fc",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-6d0916ff0a",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-6667f28115",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-230972a720",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-2672784152",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-9341077cc5",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-0d56566bcc",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-481e155dac",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-43bb94f90c",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-fb845c93d0",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "loop-detection-15fbb6d59c",
+   "type": "loop-detection",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-79e373b4cc",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-072d9d5b73",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-9bb5fd890c",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-7565624a85",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-73c8b251ee",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-8560105fbf",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-e2b6444e09",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-289446ba36",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-71d7330bab",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-7e8a9699c8",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-af029f58ad",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-1c3418ae1c",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-c60228fc76",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-ab377cf263",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-6559c1a8dc",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-6b2ce28e5f",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-52a9cb31de",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-fcc519c899",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-d0041f36e9",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-ebd688103a",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-396e490fd4",
+   "type": "permission-matrix",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "permission-matrix-ca9734fcd0",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-faf71f8707",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-6f015f6e5a",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-531c2703e6",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-6422eafb7c",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-9ca5afc9fe",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-f001d9e965",
+   "type": "permission-matrix",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "permission-matrix-2d60709ee9",
+   "type": "permission-matrix",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "permission-matrix-0ea5cab59e",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-adcd6e021c",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-bc21e45929",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-5e5a0feaca",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-42e0d54c64",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-8f29ba03a0",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-7aa5639e12",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-a1073c4f90",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-53ff49486b",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-0d33f47502",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-1ad542098b",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-2b29f4ca18",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-a194629df5",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-e5898598c6",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-ddc554cb8e",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-069f168c05",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-d3d9e30fc2",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-c04b9d01f9",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-731ddf7e87",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-b9d38b98e9",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "permission-matrix-5b07284f82",
+   "type": "permission-matrix",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-2d1254caf2",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-80b0b2789d",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-7bd66f14b8",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-9c6657b917",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-f600e6481f",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-260ca3e02b",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-e5cf8be0f9",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-b1742a4165",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a1c30e7db5",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-0b290f53b9",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-351ebd37ee",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-23376588e6",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-0bc9a6676c",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-e368c6856d",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-3b6603b23a",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-7404f52d46",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-8d0ad3d465",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-56c7fd0dc2",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a4bdcefec3",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-0ab14d5066",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-afcf9bb703",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-e0cdd89e7f",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-5f05b3c29e",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-6fcff26e06",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-b1f9e4e7ad",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-e190e6d6f0",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-02706fcbc5",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a974848e73",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-93bd84034a",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-97129db027",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-3438d972b5",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-df51320968",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-5a34dbd60d",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-b7279d4311",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a44897f864",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-19075461cd",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-adc80305e2",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-79918d0935",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-57a3e236c2",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-cc4499c8ea",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-7af54c17c2",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-cbf0578d30",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-08e157a67e",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-ae33e1bd27",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a5a8ea7e28",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-833fedbb98",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-0481927a74",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-d7a3d58e86",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-a2dea9f4db",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "plan-makespan-6c6749ad58",
+   "type": "plan-makespan",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-be28714d0d",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-ad0cc40b23",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-db7ce7503c",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-5f35d90063",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-d7c78b844c",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-efea30d340",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-aef2e201ab",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-26840d9b73",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-33c05e07fc",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-303f509bdf",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-3e083d76f6",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-7552d782d5",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-1afac7d9c1",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-807be5a030",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-89b713fd45",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-372d0f9e9b",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-1665e7b927",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-d3fecd3642",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-780afba15b",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-403ca8bba5",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-3b38c5c954",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-baf0145f90",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-49d40f0c01",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-089ccfb9a4",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-9dc16c2da3",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-cc8ebc11f0",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-286b5ef786",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-bc44585b34",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-63cd440965",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-c6a78e31f5",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-a8facba808",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-16f170fc70",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-6b9c12b073",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-bf7f6b2348",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-f6d78522d5",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-3f1c7b0341",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-b64403fac5",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-da454ae682",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-5f5295b799",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-7c8a952c2d",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-104ffe3d7c",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-799725ba61",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-aeb744a224",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-198e8615a6",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-601a90756a",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-6fb00a38d1",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-88a05a9b16",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-99ef5e4e63",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  },
+  {
+   "id": "tool-ordering-10fd986fd2",
+   "type": "tool-ordering",
+   "passed": false,
+   "reason": "value-mismatch"
+  },
+  {
+   "id": "tool-ordering-fca6cdfd0f",
+   "type": "tool-ordering",
+   "passed": true,
+   "reason": ""
+  }
+ ],
+ "wall_seconds": 866.5
+}

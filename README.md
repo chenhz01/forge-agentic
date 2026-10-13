@@ -59,6 +59,41 @@ match, never by another model). Baselines included: `random` (chance level,
 answer works, e.g. a llama.cpp process. Baseline reports ship in
 `data/bench_*.json`.
 
+## First real-model results (independent, CPU-only, reproducible)
+
+Qwen2.5-Instruct family (Q4_K_M, llama.cpp b6100, 4 CPU threads, temperature 0,
+same 250-problem exam, same oracle grading). Full per-problem reports in
+`data/bench_qwen*.json`.
+
+| Model | Overall | tool-ordering | permission-matrix | loop-detection | budget-knapsack | plan-makespan |
+|---|---|---|---|---|---|---|
+| 0.5B  | 4.4%  | 22% | 0%  | 0%  | 0% | 0% |
+| 1.5B  | 8.0%  | 34% | 6%  | 0%  | 0% | 0% |
+| 3B    | 18.0% | 56% | 32% | 2%  | 0% | 0% |
+| 7B    | 36.4% | 98% | 60% | 22% | 2% | 0% |
+| random (chance) | 9.6% | 30% | 18% | — | 0% | — |
+
+Findings (all reproducible with the commands below):
+
+1. **Dependency understanding saturates at 7B**: tool-ordering climbs
+   22% → 34% → 56% → 98% with scale — near-perfect at 7B.
+2. **Numerical optimization does not open up ≤7B**: budget-knapsack and
+   plan-makespan stay at ≤2% across all four sizes, while chance-level
+   structure means the exam is not trivially gamed.
+3. **Format compliance is 100% for 1.5B+** (with the JSON schema hint in
+   the system prompt): every error below 7B is a clean reasoning error,
+   not a formatting artifact.
+
+Reproduce:
+
+```bash
+./llama-server.exe -m qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf \
+    -c 2048 --port 8081 --threads 4
+python run_eval.py --file data/agentic_w1_250.jsonl \
+    --name qwen2.5-7b-instruct-q4k_m-cpu --out eval_qwen7b.json
+python -m bench.harness --file data/agentic_w1_250.jsonl --backend random
+```
+
 ## Data card (datasheet)
 
 - **Distribution**: 50 problems per type in W1; difficulties uniformly
