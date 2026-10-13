@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+data/_selftest.jsonl
+data/agentic_pool_100k.jsonl
