@@ -1,0 +1,3 @@
+content audit: data/agentic_w1_250.jsonl
+problems=250  exact_dup_groups=0  near_dups(>=0.80)=0
+same-type pair histogram (Jaccard >= t): >=0.9: 0, >=0.8: 0, >=0.7: 0, >=0.6: 74
